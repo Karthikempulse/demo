@@ -20,5 +20,6 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    - task: PublishBuildArtifacts@1
     goals: 'package'
   
